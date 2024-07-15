@@ -1,0 +1,19 @@
+    create a table
+ create table course(name varchar(10),id varchar(10),department varchar(20));
+     desc table "name"
+   TO ADD A NEW ATTRIBUTE
+ alter table student add age number;
+ 
+ alter table student add(in_id number,in_age number);
+   TO MODIFY
+ alter table course modify id number; 
+   TO DROP
+  alter table student drop (age);
+  alter table student drop (in_age,in_id);
+ TO INSERT or LOAD
+    insert into student values('y22cm34','abhishek');
+   insert into student values('&id','&name');
+ select * from course;
+ TO PRINT SELECTED ATTRIBUTES
+  select name,id from course;
+ TO UPDATE
